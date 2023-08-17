@@ -1,0 +1,967 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #dadada;
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    
+
+}
+
+.navbar{
+  
+     z-index: 100;
+    opacity: .9;
+    width: 100%;
+}
+
+.im1{
+    
+background-image: url(../images/logo1.jpg);
+border-radius: 50%;
+width: 80px;
+height: 80px;
+background-size: cover;
+box-shadow: 3px 3px 10px 2px #a9a1a1;
+}
+.l1{
+    margin-left: 20px;
+    font-weight:  bold;
+background-image: linear-gradient(to bottom,red,blue);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+font-size: 30px;
+}
+.sp1{
+    width: 1px;
+    height: 70px;
+    margin-left: 10px;
+}
+.nav-item{
+  
+    margin-left: 5px;
+font-size: 21px;
+}
+.nav-link{
+    font-size: 30px;
+    transition: transform 0.5s;
+    font-family: 'Sirin Stencil', cursive;
+}
+.nav-link:hover{
+    
+    transform: scale(1.1,1.1);
+    
+}
+.o1:focus{
+   
+    border-radius: 10px;
+    border: 1px solid rgb(0, 217, 255);
+    box-shadow: 3px 3px 10px 2px #a9a1a1;
+    transform: scale(1.1,1.1);
+}
+.hr1{
+    color: rgb(0, 195, 255);
+}
+.dropdown-menu{
+    opacity: .7;
+    padding-top: 10px;
+    font-size: 21px;
+}
+.dropdown-item{
+    opacity: 1;
+    z-index: 10;
+}
+.img2{
+    height: 90vh;
+    max-height: 90vh;
+  
+}
+
+.title1{
+    padding-top: 20px;
+    
+    
+ 
+  
+    opacity: .8;
+    border-radius: 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: rgba(white, white, white, white);
+    z-index: 5;
+
+}
+
+
+
+h3{opacity: 1;
+}
+.mar{
+    display: flex;
+    justify-content: end;
+   
+    
+}
+.me-2{
+    width:200px;
+
+}
+.lgo1{
+   
+    font-size: 50px;
+ z-index: 10;
+    
+    margin-top: 250px;
+margin-left: 1800px;
+position: fixed;
+}
+
+.lg1{
+    opacity: 1;
+color: rgb(0, 103, 163);
+}
+.lg1:hover{
+    opacity: .7;
+}
+.p1{
+    opacity: .7;
+}
+.bt1{
+    margin-right: 330px;
+}
+.mt{
+    /* margin-top: -2px; */
+    width: 100%;
+}
+.p2{
+    font-style: italic;
+    font-size: 21px;
+}
+.q1{
+    background-color: rgb(1, 155, 147);
+text-align: center;
+}
+
+.r1{
+    margin-left: 20px;
+    font-weight:600;
+background-image: linear-gradient(to bottom,red,blue);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+font-size: 30px;
+}
+.r1:hover{
+    background-image: linear-gradient(to bottom,red,blue); 
+    background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+opacity: .8;
+}
+
+
+.d1{
+    background-color: rgb(29, 185, 185);
+    height: 350px;
+    width: 100%;
+    margin-top: 50px;
+}
+h1{
+    background-color: rgb(1, 155, 147);
+    text-align: center;
+    height: 60px;
+    
+}
+.br1{
+    margin-top: 20px;
+    width: 95%;
+    height: 50%;
+    margin-left: 50px;
+}
+@media(300px <= width <=800px){
+    header{
+        width: 27%;
+    }
+    .lgo1{
+        margin-top: 250px;
+      
+        margin-left: 310px;
+        font-size: 50px;
+        display: inline;
+         position:fixed; 
+    }
+    .lg1{
+        opacity: 1;
+    color: rgb(0, 103, 163);
+    }
+.br1{
+   height: 150px;
+    width: 300px;
+}
+}
+.bt2{
+    margin-left: 50px;
+    
+}
+.h0{
+    margin-left: 50px;
+    font-size: 27px;
+}
+.a13{
+   
+text-decoration: none;
+color: rgb(0, 124, 124);
+}
+
+.im2{
+    margin-top: -16px;
+    background-image: url(../images/luxur/img9.jpg);
+    width: 100%;
+    height: 60vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.l11{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight:  bold;
+background-image: linear-gradient(to bottom,red,blue);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+font-size: 40px;
+text-align: center;
+}
+.g1{
+    width: 400px;
+    height: 650px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.g1:hover{
+    transition: 2s;
+   
+}
+.g1::before{
+    content:"";
+    transition: 2s;
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+
+    left: 0;
+  
+  
+    opacity: 0.8;
+    background-color: rgba(118, 255, 255, 0.5);
+   
+}
+.g1:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.g1:hover{
+    transition: 1s;
+    /* background-color: rgb(14, 189, 189); */
+}
+.g1::after{
+    content:"";
+    transition: 2s;
+    position: absolute;
+    width: 0;
+    height: 0;
+    /* top: 0; */
+    bottom: 0;
+    right: 0;
+  
+    /* top: 0; */
+    opacity: 0.8;
+    background-color: rgba(118, 255, 255, 0.5);
+    /* z-index: 2; */
+}
+.g1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+}
+.k1{
+    z-index: 10;
+    position: relative;
+    
+}
+.im50{
+    /* margin-top: -16px; */
+    background-image: url(../images/aswan/img7.jpg);
+    width: 100%;
+    height: 60vh;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.sec5{
+    width: 100%;
+    height: 100vh;
+}
+.s1{
+    margin-top: -10px;
+    z-index: 6;
+    width: 500px;
+    height: 670px;
+    opacity: .8;
+    
+}
+.s2{
+    margin-top: -670px;
+    
+}
+.card-img-overlay{
+    margin-top: 480px;
+  opacity: .9;
+color: white;
+z-index: 10;
+
+position:absolute;
+}
+
+.b1{
+    transition: transform 0.5s;
+    
+   
+  border-radius: 30px;
+}
+.b1:hover{
+    transform: scale(.98,.9);
+  color: rgb(144, 203, 255);
+    /* opacity: .7; */
+}
+.co{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid gray ;
+    background-image:url(../images/islam.jpg);
+    background-size: cover;
+   
+}
+
+.co1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid gray ;
+    background-image:url(../images/trainer-1.jpg);
+    background-size: cover;
+   
+}
+.co2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid gray ;
+    background-image:url(../images/trainer-3.jpg);
+    background-size: cover;
+   
+}
+.f1{
+    margin-left: 20px;
+    margin-top: -650px;
+    color: rgb(255, 255, 255);
+    z-index: 10;
+    font-size: 30px;
+    margin-bottom: 10px;
+    opacity: .7;
+}
+.f11{
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    z-index: 10;
+    opacity: .7;
+}
+.N1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c1{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 101%, 44% 102%);
+    
+    height: 540px;
+    width: 700px;
+    /* float: right; */
+    margin-left: 585px;
+    background-image: url(../images/galalh/IMG-20230227-WA0040.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -325px;
+   
+   
+}
+
+.v1{
+  width: 50%;
+
+}
+.dot{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 140px;
+    height: 5px;
+   
+   border-radius: 10px;
+}
+.btns{
+    margin-top: -40px;
+    z-index: 10;
+}
+
+.c2{
+    clip-path: polygon(-1% 0%, 100% 0%, 75% 100%, 0% 100%);
+    border: 1px solid gray;
+    /* height: 200px;*/
+    height: 50vh;
+    width: 500px;
+    background-image: url(../images/Hurghada/ralf-schlegel-gGIaHmXcSp8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.r3{
+    height: 500px;
+}
+.N2{
+margin-left: 500px;
+margin-top: -470px;
+font-size: 40px;
+}
+
+.ba2{
+    
+   margin-left: 500px;
+}
+.dot-1{
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 140px;
+    height: 5px;
+   margin-left: 500px;
+   border-radius: 10px;
+}
+.btns-1{
+   margin-top: 30px;
+    z-index: 10;
+    margin-left: 500px;
+    
+}
+
+
+
+
+.a1{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+   text-align: center;
+  
+}
+.z1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.x1{
+    text-decoration: none;
+    font-size: 25px;
+ text-align: center;
+
+}
+.t1:hover{
+    opacity: .7;
+    
+}
+.x1:hover{
+opacity: .7;
+}
+
+
+.im11{
+    background-image: url(../images/logo1.jpg);
+border-radius: 50%;
+width: 100px;
+height: 100px;
+background-size: cover;
+box-shadow: 3px 3px 10px 2px #a9a1a1;
+/* margin-left: 30px; */
+margin-top: 30px;
+}
+.p1{
+    font-size: 40px;
+   margin-left: 150px;
+   margin-top: -65px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bbn{
+    width: 600px;
+    height: 2px;
+margin-top: 60px;
+margin-left: 30px;
+border-radius: 10px;
+}
+.bbn1{
+ 
+   width: 600px;
+    height: 2px;
+margin-top: 50px;
+margin-left: 30px;
+border-radius: 10px;
+}
+.im111{
+    background-image: url(../images/logo1.jpg);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    box-shadow: 3px 3px 10px 2px #a9a1a1;
+    margin-right: 500px;
+    margin-top: -110px;
+    float: right;
+
+}
+.im1111{
+    background-image: url(../images/logo1.jpg);
+border-radius: 50%;
+width: 100px;
+height: 100px;
+background-size: cover;
+box-shadow: 3px 3px 10px 2px #a9a1a1;
+margin-left: 650px;
+margin-top: -110px;
+}
+
+
+.p11{
+    opacity: .7;
+    font-size: 40px;
+   margin-left: 800px;
+   margin-top: -70px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.p111{
+    opacity: .7;
+    font-size: 40px;
+    float: right;
+    margin-right: 350px;
+   margin-top: -75px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pl1{
+    margin-left: 100px;
+margin-top: 30px;
+font-size: 25px;
+}
+.pl2{
+    font-style: italic;
+    text-align:center;
+    text-transform: capitalize;
+    margin-top: -100px; 
+    font-size: 25px;
+}
+.pl3{
+    margin-top: -50px; 
+    margin-bottom: 80px;
+    font-size: 25px;
+   margin-left: 1200px;
+    text-align: center;
+}
+
+.dot12{
+    margin-top: -40px;
+    width: 100%;
+    height: 2px;
+}
+.dot13{
+
+    width: 100%;
+    height: 2px;
+   
+}
+
+
+
+
+.back1{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 101%, 44% 102%);
+    background-image: url(../images/galalh/IMG-20230227-WA0040.jpg);
+    background-size: cover;
+    height: 400px;
+
+background-repeat: no-repeat;
+
+}
+.back2{
+    clip-path: polygon(-1% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-size: cover;
+    height: 400px;
+    background-image: url(../images/Hurghada/ralf-schlegel-gGIaHmXcSp8-unsplash.jpg);
+background-repeat: no-repeat;
+
+}
+.back3{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 101%, 44% 102%);
+    background-image: url(../images/luxur/img2.jpg);
+    background-size: cover;
+    height: 400px;
+
+background-repeat: no-repeat;
+}
+.b23{
+    margin-top: 150px;
+    display: inline;
+    text-align: start;
+    z-index: 10;
+    font-size: 20px;
+    margin-left:-200px;
+}
+.g2{ 
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+.dot-12{
+    width: 300px;
+    height:3px;
+    margin-top: 100px;
+    margin-left: -300px;
+    border-radius: 3px;
+}
+.ba12{
+    margin-left: -280px;
+    margin-top: 70px;
+    width: 50%;
+}
+.dot-11{
+    width: 300px;
+height:3px;
+margin-top: 100px;
+margin-left: -260px;
+border-radius: 3px;
+}
+
+.btns-11{
+    margin-top: 330px;
+    margin-left: -30px;
+} 
+.btns-111{
+    margin-top: 330px;
+    margin-left: -0px;
+} 
+.btn11{
+    display: flex;
+
+ margin-left: -20px;
+    /* width: 150px;  */
+    height: 55px;   
+text-align: center;
+padding-top: 15px;
+}
+.btn111{
+    margin-left: 20px;
+    height: 55px; 
+ 
+}
+
+.back4{
+    clip-path: polygon(-1% 0%, 100% 0%, 75% 100%, 0% 100%);
+    border: 1px solid gray;
+ 
+    background-image: url(../images/siwa/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+@media(max-width:567px){
+    .back1{
+        max-width: 160px;
+       
+        height: 100%;
+    }
+
+    .back2{
+        max-width: 180px;
+       
+        height: 100%;
+    }
+    .back3{
+        max-width: 180px;
+        height: 100%;
+    }
+    .vom4{
+        width: 110%;
+        height: 600px;
+    }
+    .vol4{
+        width: 100%;
+margin-right: -300px;
+font-size: 15px;
+padding-left: 40px;
+
+    }
+    .btns-111{
+        z-index: 5;
+        margin-top: 400px;
+        display: flex;
+        flex-direction: column;
+    padding-right: 100px;
+    }
+    .back4{
+       max-width: 180px;
+       
+    }
+    .btn11{
+        margin-left: 100px;
+        text-align: center;
+        padding-left: 20px;
+        margin-bottom: 5px;
+        z-index: 5;
+        width: 120px;
+    }
+    .btn111{
+        z-index: 5;
+        margin-left: 100px;
+        margin-bottom: 5px;
+        width: 120px;
+    }
+    .g2{
+  font-size: 20px;
+  margin-left: 3px;
+    }
+    .ba12{
+       z-index: 1;
+     width: 400px;
+   padding-left: 140px;
+    }
+    .btns-11{
+        margin-top: 400px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+
+
+.overlay1{
+    border-radius: 10px;
+    opacity: .7;
+height: 666px;
+z-index: 5;
+position: absolute;
+/* margin-top: -00px; */
+
+}
+
+.mahmoud1{
+    background-image: url(../images/IMG_٢٠٢٢١١٣٠_٢٣٣٥٠٧.jpg);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size:cover;
+    background-position: -2px 0px;
+
+    box-shadow: 3px 3px 10px 2px #373636;
+    /* margin-left: 30px; */
+    margin-top: -50px;
+    margin-bottom: 5px;
+  
+    
+}
+.islam1{
+    background-image: url(../images/islam.jpg);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size:cover;
+    background-position: 2px -18px;
+
+    box-shadow: 3px 3px 10px 2px #373636;
+    /* margin-left: 30px; */
+    margin-top: -50px;
+    margin-bottom: 5px;
+}
+.John1{
+    background-image: url(../images/trainer-1.jpg);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size:cover;
+
+    box-shadow: 3px 3px 10px 2px #373636;
+
+    margin-top: -50px;
+    margin-bottom: 5px;
+}
+.mano2:hover{
+opacity: .9;
+
+
+}
+
+  
+.mano3{
+
+    transition: transform 0.5s;
+}
+.mano3:hover{
+    transform: scale(.9,.9);
+}
+@media(max-width:567px){
+    .sec5{
+height: 2450px;
+
+    }
+    .d1{
+        width: 110%;
+    }
+    .im2{
+        width: 110%;
+    }
+    .im50{
+        width:110% ;
+    }
+    .nm2{
+        width: 110%;
+    }
+    .mano1{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .mano2{
+        margin-left: -5px;
+        max-width: 380px;
+        height: 600px;
+        margin-bottom:100px ;
+    }
+    .overlay1{
+        height: 668px;
+       
+    }
+    .mano4{
+        display: flex;
+       flex-direction: column;
+    }
+    .a1{
+        width: 90%;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+    .loma1{
+        width: 110%;
+        height: 1000px;
+        display: flex;
+        flex-direction:column;
+
+    }
+.dns{
+   width: 100%;
+}
+.bla{
+    margin-left: -160px;
+    margin-top: -760px;
+    display: flex;
+   flex-direction: column;
+}
+.bla1{
+    margin-top: 350px;
+    margin-left: -100px;
+    display: flex;
+    flex-direction: column;
+}
+.bla2{
+    text-align: center;
+    margin-left: -2350px;
+    margin-top: 350px;
+
+}
+.loma4{
+    width: 110%;
+}
+.bom1{
+    margin-top: -17px;
+    height: 250px;
+    width: 110%;
+}
+
+.ba2{
+font-size: 10px;
+height: 190px;
+}
+
+}
+
+.dns{
+    margin-top: 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white; 
+
+    margin-bottom: 20px;
+}
+.loma2{
+height: 500px;
+}
+.ul1{
+ 
+ margin-left: 250px;
+  list-style:none;
+
+}
+.loma3{
+    margin-top: -510px;
+    margin-left: 100px;
+}
+.ul2{
+    list-style: none;
+    text-align: center;
+}
+.li1{
+    font-size: 21px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.loma4{
+    margin-top: -200px;
+    
+}
+.ul3{
+ margin-left: 1340px;
+    list-style: none;
+    text-align:center ;
+}
+.do12{
+    width: 100%;
+    height: 2px;
+    
+}
+.ba2{
+     
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight:  bold;
+background-image: linear-gradient(to bottom,red,blue);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+font-size: 40px;
+text-align: center; 
+}
+
